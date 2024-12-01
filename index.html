@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar - 2024</title>
+  <link rel="icon" href="calendar.png"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <!-- Vertical Navbar -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#jan">January</a></li>
+          <li><a href="#feb">February</a></li>
+          <li><a href="#mar">March</a></li>
+          <li><a href="#apr">April</a></li>
+          <li><a href="#may">May</a></li>
+          <li><a href="#jun">June</a></li>
+          <li><a href="#jul">July</a></li>
+          <li><a href="#aug">August</a></li>
+          <li><a href="#sep">September</a></li>
+          <li><a href="#oct">October</a></li>
+          <li><a href="#nov">November</a></li>
+          <li><a href="#dec">December</a></li>
+        </ul>
+      </nav>
+
+      <div class="calendar-content">
+        <section id="jan" class="month">
+          <h1>January 2024</h1>
+          <table class="calendar">
+            <thead>
+              <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#dec" style="text-decoration: none; color: #aaa;">31</a></td> <!-- December -->
+                <td class="sunday">1<span class="holiday">New Year</span></td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td class="sunday">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td class="sunday">13<span class="holiday">Lohri</span></td>
+              </tr>
+              <tr>
+                <td class="sunday">14<span class="holiday">Makarsankranti</span></td>
+                <td class="sunday">15<span class="holiday">Pongal</span></td>
+                <td>16</td>
+                <td class="sunday">17<span class="holiday">Guru Gobind Singh Jayanti</span></td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td class="sunday">21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td class="sunday">26
+                  <span class="holiday">Republic Day</span>
+                </td>
+                <td>27</td>
+              </tr>
+              <tr>
+                <td class="sunday">28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="prev-month"><a href="#feb" style="text-decoration: none; color: #aaa;">1</a></td>
+                <td class="prev-month"><a href="#feb" style="text-decoration: none; color: #aaa;">2</a></td>
+                <td class="prev-month"><a href="#feb" style="text-decoration: none; color: #aaa;">3</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="feb" class="month">
+            <h1>February 2024</h1>
+            <table class="calendar">
+              <thead>
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#jan" style="text-decoration: none; color: #aaa;">28</a></td>
+                  <td><a href="#jan" style="text-decoration: none; color: #aaa;">29</a></td>
+                  <td><a href="#jan" style="text-decoration: none; color: #aaa;">30</a></td>
+                  <td><a href="#jan" style="text-decoration: none; color: #aaa;">31</a></td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td class="sunday">4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td class="sunday">11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td class="sunday">14<span class="holiday">Vasant Panchami</span></td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                </tr>
+                <tr>
+                  <td class="sunday">18</td>
+                  <td class="sunday">19<span class="holiday">Shivaji Jayanti</span></td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td class="sunday">24<span class="holiday">Guru Ravidas Jayanti</span></td>
+                </tr>
+                <tr>
+                  <td class="sunday">25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td class="prev-month"><a href="#mar" style="text-decoration: none; color: #aaa;">1</a></td>
+                  <td class="prev-month"><a href="#mar" style="text-decoration: none; color: #aaa;">2</a></td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+        <section id="mar" class="month">
+            <h1>March 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="sunday">31<span class="holiday">Easter Day</span></td>
+                        <td><a href="#feb" style="text-decoration: none; color: #aaa;">26</a></td>
+                        <td><a href="#feb" style="text-decoration: none; color: #aaa;">27</a></td>
+                        <td><a href="#feb" style="text-decoration: none; color: #aaa;">28</a></td>
+                        <td><a href="#feb" style="text-decoration: none; color: #aaa;">29</a></td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td class="sunday">6<span class="holiday">Maharishi Dayanand Saraswati Jayanti</span></td>
+                        <td>7</td>
+                        <td class="sunday">8<span class="holiday">Maha Shivratri</span></td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">24<span class="holiday">Holi</span></td>
+                        <td class="sunday">25<span class="holiday">Dhuleti</span></td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td class="sunday">29<span class="holiday">Good Friday</span></td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="apr" class="month">
+            <h1>April 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#mar" style="text-decoration: none; color: #aaa;">31</a><span class="holiday" style="color:#aaa;">Easter Day</span></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">7</td>
+                        <td>8</td>
+                        <td class="sunday">9<span class="holiday">Gudi Padwa</span></td>
+                        <td class="sunday">10<span class="holiday">Ramzan Eid</span></td>
+                        <td class="sunday">11<span class="holiday">Ramzan Eid</span></td>
+                        <td>12</td>
+                        <td class="sunday">13<span class="holiday">Baisakhi</span></td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">14<span class="holiday">Ambedkar Jayanti</span></td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td class="sunday">10<span class="holiday">Ram Navmi</span></td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">21<span class="holiday">Mahavir Jayanti</span></td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">1</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">2</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">3</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">4</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="may" class="month">
+            <h1>May 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#apr" style="text-decoration: none; color: #aaa;">28</a></td>
+                        <td><a href="#apr" style="text-decoration: none; color: #aaa;">29</a></td>
+                        <td><a href="#apr" style="text-decoration: none; color: #aaa;">30</a></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td class="sunday">23<span class="holiday">Buddha Purnima</span></td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td><a href="#jun" style="text-decoration: none; color: #aaa;">1</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="jun" class="month">
+            <h1>June 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="sunday">30</td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">27</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">28</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">29</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">30</a></td>
+                        <td><a href="#may" style="text-decoration: none; color: #aaa;">31</a></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">16</td>
+                        <td class="sunday">17<span class="holiday">Bakri Eid/Eid-ul-Adha</span></td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="jul" class="month">
+            <h1>July 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#jun" style="text-decoration: none; color: #aaa;">31</a></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">7<span class="holiday">Rathyatra</span></td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td class="sunday">17<span class="holiday">Muharram</span></td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td><a href="#aug" style="text-decoration: none; color: #aaa;">1</a></td>
+                        <td><a href="#jun" style="text-decoration: none; color: #aaa;">2</a></td>
+                        <td><a href="#jun" style="text-decoration: none; color: #aaa;">3</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="aug" class="month">
+            <h1>August 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#jul" style="text-decoration: none; color: #aaa;">28</a></td>
+                        <td><a href="#jul" style="text-decoration: none; color: #aaa;">29</a></td>
+                        <td><a href="#jul" style="text-decoration: none; color: #aaa;">30</a></td>
+                        <td><a href="#jul" style="text-decoration: none; color: #aaa;">31</a></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td class="sunday">15<span class="holiday">Independence Day</span></td>
+                        <td>16</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">18</td>
+                        <td class="sunday">19<span class="holiday">Raksha Bandhan</span>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">25</td>
+                        <td class="sunday">26<span class="holiday">Janmashtami</span></td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="sep" class="month">
+            <h1>September 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="sunday">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td class="sunday">7<span class="holiday">Ganesh Chaturthi</span>
+                    </tr>
+                    <tr>
+                        <td class="sunday">8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">15<span class="holiday">Onam</span></td>
+                        <td class="sunday">16<span class="holiday">Eid-e-Milad</span></td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">29</td>
+                        <td>30</td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">1</a></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">2</a><span class="holiday" style="color:#aaa;">Gandhi Jayanti</span></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">3</a><span class="holiday" style="color:#aaa;">Start of Sharad Navratri</span></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">4</a></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">5</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="oct" class="month">
+            <h1>October 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#sep" style="text-decoration: none; color: #aaa;">29</a></td>
+                        <td><a href="#sep" style="text-decoration: none; color: #aaa;">30</a></td>
+                        <td>1</td>
+                        <td class="sunday">2<span class="holiday">Gandhi Jayanti</span></td>
+                        <td class="sunday">3<span class="holiday">Start of Sharad Navratri</span></td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td class="sunday">12<span class="holiday">Dussehra</span></td>
+                    </tr>
+                    <tr>
+                        <td td class="sunday">13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td class="sunday">17<span class="holiday">Maharshi Valmiki Jayanti</span></td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">20<span class="holiday">Karva Chauth</span></td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">27</td>
+                        <td>28</td>
+                        <td class="sunday">29<span class="holiday">Dhanteras</span></td>
+                        <td class="sunday">30<span class="holiday">Narak Chaturdashi</span></td>
+                        <td class="sunday">31<span class="holiday">Deepawali</span></td>
+                        <td><a href="#nov" style="text-decoration: none; color: #aaa;">1</a></td>
+                        <td><a href="#nov" style="text-decoration: none; color: #aaa;">2</a><span class="holiday" style="color:#aaa;">Hindu New Year/Gowardhan Puja</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="nov" class="month">
+            <h1>November 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">27</a></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">28</a></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">29</a><span class="holiday" style="color:#aaa;">Dhanteras</span></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">30</a><span class="holiday" style="color:#aaa;">Narak Chaturdashi</span></td>
+                        <td><a href="#oct" style="text-decoration: none; color: #aaa;">31</a><span class="holiday" style="color:#aaa;">Deepawali</span></td>
+                        <td>1</td>
+                        <td class="sunday">2<span class="holiday">Hindu New Year/Gowardhan Puja</span></td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">3<span class="holiday">Bhai Duj</span></td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td class="sunday">7<span class="holiday">Chhath Puja</span></td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td td class="sunday">10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td class="sunday">15<span class="holiday">Guru Nanak Jayanti</span></td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="dec" class="month">
+            <h1>December 2024</h1>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="sunday">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</span>
+                    </tr>
+                    <tr>
+                        <td class="sunday">8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">22</td>
+                        <td>23</td>
+                        <td class="sunday">24<span class="holiday">Christmas Eve</span></td>
+                        <td class="sunday">25<span class="holiday">Christmas</span></td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">29</td>
+                        <td>30</td>
+                        <td>31</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
